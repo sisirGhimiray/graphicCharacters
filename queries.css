@@ -1,0 +1,78 @@
+@media(min-width:36em)
+{
+  .container{
+    max-width: 54rem;
+    /* border: 1px solid black; */
+  }
+
+ 
+}
+
+@media(min-width:48em)
+{
+  .container{
+    max-width:72rem ;
+ /* background-color: blue; */
+  }
+
+ 
+}
+
+@media(min-width:62em)
+{
+  .container{
+    max-width: 96rem;
+    margin: 0 auto;
+  }
+
+  .graphicBookList{
+    grid-template-columns: repeat(2,fit-content(100%));
+  }
+ 
+  @media(max-width: 27.75em){
+    .codingLanguage{
+  
+      width: 100%;
+      height: 100%;
+     
+    }
+  }
+ 
+}
+@media(max-width:62em)
+{
+  #second-char-name{
+    display: none;
+  }
+}
+
+@media(max-width:75em)
+{
+  #third-char-name{
+    display: none;
+  }
+}
+
+@media(min-width:75em)
+{
+  .container{
+    max-width: 101.4rem;
+
+    margin: 0 auto;
+  }
+
+  .graphicBookList{
+    grid-template-columns: repeat(3,fit-content(100%));
+    justify-items: center;
+  }
+
+}
+
+@media(min-width:87.5em)
+{
+  .container{
+    max-width: 132rem;
+ 
+
+  }
+}
